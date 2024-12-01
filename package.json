@@ -222,7 +222,6 @@
     "retext-smartypants": "^6.2.0",
     "retext-stringify": "^4.0.0",
     "reusify": "^1.0.4",
-    "rollup": "^4.28.0",
     "run-parallel": "^1.2.0",
     "section-matter": "^1.0.0",
     "semver": "^7.6.3",
@@ -300,9 +299,12 @@
     "zod-to-ts": "^1.2.0",
     "zwitch": "^2.0.4"
   },
-  "devDependencies": {},
-"scripts": {
-  "dev": "astro dev",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "rollup": "^4.28.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "test": "echo \"Error: no test specified\" && exit 1"
